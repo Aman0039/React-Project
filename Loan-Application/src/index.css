@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sixtyfour&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+#webName {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
