@@ -30,7 +30,9 @@ The application includes **three main pages**, each demonstrating key React conc
 
 ### 📝 Form Page
 - Activated when the user chooses to **apply for a loan**.  
-- Displays a **multi-step applicant form** for data collection.  
+- Displays a **multi-step applicant form** for data collection.
+
+#### Feature will Be added
 - On successful submission:
   - Shows a **success alert**.  
   - Redirects the user to the **Dashboard page**.
@@ -38,6 +40,8 @@ The application includes **three main pages**, each demonstrating key React conc
 ---
 
 ### 📊 Dashboard
+
+#### Feature Will Update in Future.
 - Allows the user to:
   - **Track application status**.  
   - Manage **repayment** and **extend loan tenure**.  
@@ -71,16 +75,6 @@ Copy code
 npm run dev
 Then open the provided local server URL in your browser (usually http://localhost:5173/).
 
-🧩 Folder Structure (Suggested)
-bash
-Copy code
-src/
- ┣ components/       # Reusable UI elements (Navbar, Card, Footer, etc.)
- ┣ pages/            # Home, Form, and Dashboard pages
- ┣ assets/           # Images, icons, etc.
- ┣ App.jsx           # Main application component
- ┣ main.jsx          # React entry point
- ┗ styles/           # Tailwind / custom styles
 ⚠️ Note
 This is a frontend-only demo project created for learning and portfolio purposes.
 It does not include backend or real loan processing functionality.
